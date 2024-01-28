@@ -1,9 +1,10 @@
 *{
     font-family: arial,helvetica,sans-serif;
     color:rgb(255, 255, 255);
+    margin:0;
+    padding:0;
 }
 .upper_div{
-    margin: calc(-50vw + 50%);
 
     /* background-color: rgba(0,0,0,.8); */
     /* background-color: #323646; */
@@ -95,7 +96,6 @@
 }
 .mid-div-1{
     padding-top:50px;
-    margin: calc(-50vw + 50%);
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
@@ -125,7 +125,6 @@
 }
 .blackdiv-2{
     display:flex;
-    margin: calc(-50vw + 50%);
     background-color: #12161d;
 }
 .blackdiv-2 h1{
@@ -168,6 +167,86 @@
     margin-bottom:90px;
 }
 .blackdiv-3{
-    margin: calc(-50vw + 50%);
     background-color: #12161d;
+}
+.bottom-bl{
+    background-color: #12161d;
+    display:flex;
+    padding-top:50px;
+
+}
+.left-dv{
+    z-index:2;
+    display:flex;
+    flex-direction: column;
+    padding-left: 210px;
+    width:450px;
+}
+.left-dv h3{
+    color:rgb(128, 163, 234);
+    font-size: 70px;
+}
+.left-dv p{
+    padding-top:10px;
+    line-break: 10px;;
+    font-size:20px;
+}
+.btn-l{
+    padding-top:30px;
+}
+.btn-l button{
+    color:black;
+    height:50px;
+    width:123px;
+    border:none;
+    border-radius: 7px;
+    font-size: 21px;
+    font-weight: bold;
+    cursor:pointer;
+}
+.right-dv{
+    padding-left:91px;
+    display:flex;
+    flex-direction: column;
+}
+.cards{
+    /* background-color:#629fe5; */
+    /* background-color: #38536a; */
+    background-color: #38536a;
+    /* background-color: #1d3452; */
+    height:322px;
+    width:322px;
+    border-radius:10px;
+}
+.cardbox{
+    background-color:#12161d;
+    display:flex;
+    padding-bottom:30px;
+    gap:30px;
+}
+.min-img {
+    height: 117px;
+    width: 267px;
+    padding: 10px;
+    margin-top: 17px;
+    margin-left: 18px;
+    margin-right: 21px;
+    background-color: #6699CC;
+    border-radius:10px;
+    /* display:flex; */
+    /* justify-content: center;; */
+}
+.box-txt {
+    margin-left: 19px;
+    margin-top: 16px;
+    width: 283px;
+}
+.box-txt h1{
+    font-size:30px;
+    padding-bottom:30px;
+}
+.box-txt pre{
+    color:rgb(129, 133, 137);
+    font-weight: bold;
+    font-size:18px;
 }
